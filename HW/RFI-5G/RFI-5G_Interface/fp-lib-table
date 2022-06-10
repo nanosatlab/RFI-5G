@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "footprints")(type "KiCad")(uri "C:/Users/maarc/Downloads/ul_LT3048IDC-TRMPBF/KiCAD/2022-05-26_13-33-10/footprints.pretty")(options "")(descr ""))
+  (lib (name "MIC2215")(type "KiCad")(uri "C:/Users/maarc/Downloads/ul_MIC2215-AAAYML-TR/KiCAD/2022-05-26_22-29-56/footprints.pretty")(options "")(descr ""))
+)
