@@ -226,6 +226,9 @@
     (path "/a685af2c-72ab-4b6f-b0cb-b10ebd05a731/d2225546-ad02-4ded-a4bd-44d1ced441a5"
       (reference "#PWR0147") (unit 1) (value "GND") (footprint "")
     )
+    (path "/24614dd3-08cc-427a-9770-c2724a427351/0536025a-6414-4951-bfd6-905537685d7e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/fb58dd33-f8b4-4a56-ac7f-e5964c457cc3/7b725e9e-c797-40ab-827f-7f46385f6ad1"
       (reference "C1") (unit 1) (value "1 uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
@@ -337,8 +340,8 @@
     (path "/24614dd3-08cc-427a-9770-c2724a427351/051bc363-fba1-444e-8503-a4b387f3616c"
       (reference "J4") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
-    (path "/24614dd3-08cc-427a-9770-c2724a427351/11c92fc8-8dd0-4ee0-b301-6221cc091d45"
-      (reference "J5") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical")
+    (path "/24614dd3-08cc-427a-9770-c2724a427351/59e90f16-96b8-49bc-86de-566bbe3dd75d"
+      (reference "J5") (unit 1) (value "Conn_01x10_Female") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x10_P1.00mm_Vertical")
     )
     (path "/fb58dd33-f8b4-4a56-ac7f-e5964c457cc3/f999fc93-bcff-4556-99bc-f323ad89af2b"
       (reference "L1") (unit 1) (value "5.6 uH") (footprint "ASPI4030S5R6M-T:ASPI-4030S-100M-T")

@@ -398,7 +398,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "low_freq_board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
