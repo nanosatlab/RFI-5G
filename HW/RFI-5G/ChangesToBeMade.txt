@@ -1,0 +1,12 @@
+List of design changes that have to be made:
+	- revisar esquemàtic interface
+	- connector 2 pins incorrecte
+	- connector 3 pins mal centrat
+	- eliminar connector central
+	- afegir connectors laterals PCB_RF_TOP
+	- peça estructural per separat
+	- refer peça estructural 
+	- afegir test points
+	- color pcb's	
+	- antenna
+	

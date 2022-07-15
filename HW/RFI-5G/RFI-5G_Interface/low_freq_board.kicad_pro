@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.5,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|115750004|55499997|afc218b4-6ce8-4742-9485-86399056c336|6b7b0ba2-b092-413d-9a43-1dc863aa2921",
+        "courtyards_overlap|115750004|88499999|8ada2965-10d9-4362-ade7-32e46d9ce2ff|57a1dffe-23ec-4be5-9261-f41914073183",
+        "courtyards_overlap|88299999|58780985|5bcf6fd1-8de0-4a52-9248-93af3c34f9a0|65edd2a5-bf5c-4d06-8f6d-51684785bd71",
+        "courtyards_overlap|89769998|86704887|6120d9af-4975-4d6c-b02f-672357f0f064|57a1dffe-23ec-4be5-9261-f41914073183",
+        "courtyards_overlap|89900001|53930058|5bcf6fd1-8de0-4a52-9248-93af3c34f9a0|6b7b0ba2-b092-413d-9a43-1dc863aa2921"
+      ],
       "meta": {
         "version": 2
       },
@@ -76,7 +82,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
@@ -103,16 +109,16 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.08889999999999999,
         "min_copper_edge_clearance": 0.19999999999999998,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
-        "min_silk_clearance": 0.0,
+        "min_hole_clearance": 0.19999999999999998,
+        "min_hole_to_hole": 0.3,
+        "min_microvia_diameter": 0.39999999999999997,
+        "min_microvia_drill": 0.19999999999999998,
+        "min_silk_clearance": 0.15,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.08889999999999999,
-        "min_via_annular_width": 0.049999999999999996,
+        "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
