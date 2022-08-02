@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.6)"
     },
-    "CreationDate": "2022-07-08T12:19:54+02:00"
+    "CreationDate": "2022-07-20T12:02:57+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -18,7 +18,7 @@
       "Y": 40.25
     },
     "LayerNumber": 4,
-    "BoardThickness": 1.635,
+    "BoardThickness": 1.0,
     "Finish": "None"
   },
   "DesignRules": [
@@ -119,7 +119,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.3625,
+      "Thickness": 0.28,
       "Material": "FR4",
       "Name": "F.Cu/In1.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
@@ -131,7 +131,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.75,
+      "Thickness": 0.28,
       "Material": "FR4",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
@@ -143,7 +143,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.3625,
+      "Thickness": 0.28,
       "Material": "FR4",
       "Name": "In2.Cu/B.Cu",
       "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"

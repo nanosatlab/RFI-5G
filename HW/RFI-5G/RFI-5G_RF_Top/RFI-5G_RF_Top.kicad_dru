@@ -1,0 +1,16 @@
+(version 1)
+
+# Pad to Pad clearance
+(rule "Pad to Pad Clearance"
+	(condition "A.Type == 'Pad' && B.Type == 'Pad'")
+	(constraint clearance (min 6mil)))
+
+# Clearance for RF tracks to Via
+(rule "RF Via Clearance"
+	(condition "A.Type == 'Track' && B.Type == 'Via' && A.NetClass == 'RF'")
+	(constraint clearance (min 8mil)))
+
+# Clearance for RF thin tracks to GND zone
+(rule "RF Thin Tracks Clearance"
+	(condition "A.Type == 'Track' && B.Type == 'Zone' && A.NetClass == 'RF' && A.Width == 15mil")
+	(constraint clearance (min 8mil)))
